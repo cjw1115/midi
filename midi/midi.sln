@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{186FFACE-D3E5-4976-9198-9AF202B1BD22}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D39AAAF0-BE76-4DAC-B393-A678945E0306} = {D39AAAF0-BE76-4DAC-B393-A678945E0306}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "midi", "midi\midi.vcxproj", "{D39AAAF0-BE76-4DAC-B393-A678945E0306}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{186FFACE-D3E5-4976-9198-9AF202B1BD22}.Debug|Win32.ActiveCfg = Debug|x64
+		{186FFACE-D3E5-4976-9198-9AF202B1BD22}.Debug|Win32.Build.0 = Debug|x64
+		{186FFACE-D3E5-4976-9198-9AF202B1BD22}.Release|Win32.ActiveCfg = Release|x64
+		{186FFACE-D3E5-4976-9198-9AF202B1BD22}.Release|Win32.Build.0 = Release|x64
+		{D39AAAF0-BE76-4DAC-B393-A678945E0306}.Debug|Win32.ActiveCfg = Debug|x64
+		{D39AAAF0-BE76-4DAC-B393-A678945E0306}.Debug|Win32.Build.0 = Debug|x64
+		{D39AAAF0-BE76-4DAC-B393-A678945E0306}.Release|Win32.ActiveCfg = Release|x64
+		{D39AAAF0-BE76-4DAC-B393-A678945E0306}.Release|Win32.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
