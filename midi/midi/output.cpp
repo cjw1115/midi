@@ -28,7 +28,7 @@ void close_output()
 	opened = false;
 }
 
-uint output_short_msg(unsigned int msg)
+uint output_msg(unsigned int msg)
 {
 	if (!opened)
 	{
@@ -37,12 +37,7 @@ uint output_short_msg(unsigned int msg)
 	return midiOutShortMsg(handle, msg);
 }
 
-uint output_long_msg()
+uint output_reset()
 {
-	if (!opened)
-	{
-		open_output();
-	}
-	//return midiOutLongMsg(handle, )
-	return 0;
+	return midiOutReset(handle);
 }

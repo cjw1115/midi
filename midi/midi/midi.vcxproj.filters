@@ -12,10 +12,16 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="vst">
+      <UniqueIdentifier>{c044e8be-9ad9-4b17-a765-6cd5b408b31b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="output.cpp">
       <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="vst.cpp">
+      <Filter>vst</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -24,6 +30,9 @@
     </ClInclude>
     <ClInclude Include="common.h">
       <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="vst.h">
+      <Filter>vst</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
