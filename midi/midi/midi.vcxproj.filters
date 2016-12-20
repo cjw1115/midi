@@ -23,6 +23,10 @@
     <ClCompile Include="vst.cpp">
       <Filter>vst</Filter>
     </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="output.h">
@@ -33,6 +37,9 @@
     </ClInclude>
     <ClInclude Include="vst.h">
       <Filter>vst</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>output</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
